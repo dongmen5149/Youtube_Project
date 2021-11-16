@@ -4,7 +4,7 @@ import { loginUser } from "../../../_actions/user_actions";
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { Form, Input, Button, Checkbox, Typography } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { useDispatch } from "react-redux";
 
 const { Title } = Typography;
@@ -104,7 +104,7 @@ function LoginPage(props) {
                             <Form.Item required>
                                 <Input
                                     id="password"
-                                    prefix={<UserOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
+                                    prefix={<LockOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
                                     placeholder="Enter your password"
                                     type="password"
                                     value={values.password}
@@ -133,7 +133,7 @@ function LoginPage(props) {
                                         Log in
                                     </Button>
                                 </div>
-                                Or <a href="/register">register now!</a>
+                                Or <a href="/register">회원가입</a>
                             </Form.Item>
                         </form>
                     </div>
