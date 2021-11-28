@@ -6,6 +6,7 @@ import * as Yup from 'yup';
 import { Form, Input, Button, Checkbox, Typography } from 'antd';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { useDispatch } from "react-redux";
+import 'antd/dist/antd.css';
 
 const { Title } = Typography;
 

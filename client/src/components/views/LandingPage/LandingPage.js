@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCode } from "react-icons/fa";
+import 'antd/dist/antd.css';
 
 function LandingPage() {
     return (
