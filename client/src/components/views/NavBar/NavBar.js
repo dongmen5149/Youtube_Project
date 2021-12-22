@@ -19,7 +19,7 @@ function NavBar() {
   return (
     <nav className="menu" style={{ position: 'fixed', zIndex: 5 }}>
       <div className="menu__logo">
-        <a href="/">Logo</a>
+        <a href="/">Ryutube</a>
       </div>
       <div className="menu__container">
         <div className="menu_left">
