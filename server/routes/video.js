@@ -5,9 +5,8 @@ var ffmpeg = require('fluent-ffmpeg');
 
 const { Video } = require("../models/Video");
 const { Subscriber } = require("../models/Subscriber");
-const { auth } = require("../middleware/auth");
 
-var storage = multer.diskStorage({
+let storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'uploads/')
     },
@@ -23,7 +22,7 @@ var storage = multer.diskStorage({
     }
 })
 
-var upload = multer({ storage: storage }).single("file")
+let upload = multer({ storage: storage }).single("file")
 
 
 //=================================
