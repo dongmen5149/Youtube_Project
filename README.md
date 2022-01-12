@@ -14,3 +14,6 @@ ffepeg를 다운(Mac : brew install ffmpeg, 윈도우:https://m.blog.naver.com/c
 
 ## 5. npm run dev
 git clone한 폴더로 돌아와서 npm run dev.
+
+# Preview
+![유튜브 gif](https://user-images.githubusercontent.com/78216411/149069344-55542794-ae21-4f3c-bd3a-103b0ead9f45.gif)
